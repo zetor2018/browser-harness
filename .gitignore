@@ -6,3 +6,19 @@ uv.lock
 *.egg-info/
 .idea/
 .claude/
+
+# browser-harness Way 2 connection — local Chrome profile + ephemeral data
+.chrome-profile/
+.conn_out*.txt
+
+# medical-brief — generated runtime artifacts
+medical-brief/data/
+medical-brief/output/
+medical-brief/.debug_*
+medical-brief/.probe*
+medical-brief/.check*
+medical-brief/.run*
+medical-brief/.nhsa_col14.html
+medical-brief/.final.txt
+medical-brief/.pip_out.txt
+medical-brief/.bs4_check.txt
